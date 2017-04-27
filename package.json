@@ -1,0 +1,23 @@
+{
+  "name": "ionide-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Krzysztof Cieslak",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.12.0",
+    "monaco-editor": "0.x.x",
+    "fable-core": "^0.7.25",
+    "requirejs": "^2.2.0",
+    "fable-powerpack":"^0.0.20"
+  },
+  "devDependencies": {
+    "fable-compiler": "^0.7.34",
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "build": "fable",
+    "server": "node_modules/.bin/http-server -c-1 ./ -p 8888"
+  }
+}
